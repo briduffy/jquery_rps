@@ -1,0 +1,46 @@
+.title {
+  font-size: 5em;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.directions {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.choice {
+  height: 200px;
+  width: 200px;
+  padding: 30 30 30 30px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.selected {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}

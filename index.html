@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./jqueryrps.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Patrick+Hand+SC" rel="stylesheet">
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="title">Rock, Paper, Scissors</div>
+    
+      <div class="directions">Game on. Three, two, one &#8212; shoot.</div>
+      
+      <div class="image-row">
+        <image class="choice" id="rock" src="./rock.jpg" alt="rock"/>
+        <image class="choice" id="paper" src="./paper.jpg" alt="paper"/>
+        <image class="choice" id="scissors" src="./scissors.jpg" alt="scissors"/>
+      </div>
+
+      <div class="container">
+        <img id="userChoice" class="hide" alt="user choice"/>
+        <img id="computerChoice" class="hide" alt="computer choice"/>
+      </div>
+
+      <div class="container gameResult">
+        <h2 id="wins">Wins: 0</h2>
+        <h2 id="losses">Losses: 0</h2>
+        <h2 id="ties">Ties: 0</h2>
+      </div>
+    
+
+      <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+      <script src="./main.js"></script>
+  </body>
+</html>
